@@ -6,7 +6,7 @@ The path for fastcgi_cache, client_body_temp_path are using the fast tmpfs in RA
 
 To create these directories on server startup:
 
-# --> /etc/tmpfiles.d/nginx.conf
+--> /etc/tmpfiles.d/nginx.conf
 
 d /run/nginx 0775 root root - -
 d /run/nginx-tmp 0775 root root - -
